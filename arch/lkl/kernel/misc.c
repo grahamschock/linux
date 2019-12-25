@@ -6,6 +6,7 @@
 #include <asm/host_ops.h>
 
 #ifdef CONFIG_PRINTK
+//could we use this for testing/debugging it seems like its printing the stack 
 void dump_stack(void)
 {
 	unsigned long dummy;
